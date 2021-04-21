@@ -67,8 +67,9 @@ main {
 .indented-heading {
   font-size: 1.5rem;
   background-color: hsl(45deg, 100%, 50%);
-  height: 64px;
+  min-height: 64px;
   padding-top: 16px;
+  padding-bottom: 16px;
   margin-left: -32px;
   padding-left: 32px;
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
@@ -81,7 +82,8 @@ main {
   }
 
   .indented-heading {
-    margin-left: -0px;
+    margin-left: -16px;
+    padding-left: 16px;
   }
 
   .card {
