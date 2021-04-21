@@ -48,6 +48,11 @@ main {
   border-bottom: solid 8px hsl(0deg, 0%, 40%);
 }
 
+.card p {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
 .title {
   font-size: 2rem;
   margin-bottom: 48px;
@@ -70,7 +75,21 @@ main {
   max-width: 400px;
 }
 
-.card p {
-  font-size: 1rem;
-  margin-bottom: 16px;
+@media (max-width: 767px) {
+  .max-width-wrapper {
+    padding: 0px 16px;
+  }
+
+  .indented-heading {
+    margin-left: -0px;
+  }
+
+  .card {
+    max-width: none;
+  }
+
+  main .max-width-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
