@@ -9,6 +9,13 @@ body {
   padding: 0;
 }
 
+
+/* solution */
+/* .max-width-wrapper { */
+/*   max-width: 800; */
+/*   margin: 0 auto; */
+/* } */
+
 /* Add styles here! */
 h1, p {
   margin: 0px;
@@ -50,6 +57,7 @@ main {
 
 .card p {
   font-size: 1rem;
+  /* line-height: 1.4; solution */
   margin-bottom: 16px;
 }
 
@@ -73,6 +81,8 @@ main {
   margin-left: -32px;
   padding-left: 32px;
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  /* width: fit-content; solution */
+  /* margin-top: -16px; solution */
   max-width: 400px;
 }
 
